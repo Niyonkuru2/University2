@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>University website</title>
+</head>
+<body>
+ 
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <a href="#" id="close"><i class="far fa-times" onclick="hideMenu()"></i></a>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <a href="#" id="close"><i class="far fa-bars" onclick="showMenu()"></i></a>
+        </nav>
+            <h1>Contact Us</h1>
+            </section>
+
+            <section class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.
+                543173443008!2d30.08279947350524!3d-1.9350243366762137!2m3!1f0!2f0!3f0!3m2
+                !1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7548b5c07df%3A0x1aae8c5f0cbc2636!2sKacyiru%20
+                Sector%20Office!5e0!3m2!1sen!2srw!4v1709208850530!5m2!1sen!2srw" 
+                width="600" height="450" style="border:0;" allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section class="conact-us">
+                <div class="row">
+                    <div class="contact-col">
+                        <div>
+                            <i class="fal fa-home"></i>
+                            <span>
+                               <h5>Kacyiru KG 338 ST</h5>
+                                <p>Kigali-Rwanda</p>
+                            </span>  
+                        </div>
+                        <div>
+                            <i class="fal fa-phone-alt"></i>
+                            <span>
+                               <h5>+250 786543210</h5>
+                                <p>Monday-Saturday , 9AM to 5PM</p>
+                            </span>  
+                        </div>
+                        <div>
+                            <i class="fal fa-envelope"></i>
+                            <span>
+                               <h5>info@eduford.com</h5>
+                                <p>Email us your Query</p>
+                            </span>  
+                        </div>
+                    </div>
+                    <div class="contact-col">
+                        <form action="Form.php" method="post">
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                            <input type="email" name="email" placeholder="Enter your Eail addres" required>
+                            <input type="text"  name="subject" placeholder=" your subject" required>
+                            <textarea rows="8" name="message" placeholder="Message"> </textarea>
+                            <button type="submit" class="hero-btn red-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>We are the best university ollover the wolrds you ever see 
+                We have greatest experience in provision of Quality Education<br/> 
+                On diffrent stage level in diffrent Faculties Especially Science and Technology
+            </p>
+            <div class="icon">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart"></i> by Niyo Sam</p>
+         </section>
+
+    <!-----java script for toogle me----->
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>

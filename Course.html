@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>University website</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <a href="#" id="close"><i class="far fa-times" onclick="hideMenu()"></i></a>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <a href="#" id="close"><i class="far fa-bars" onclick="showMenu()"></i></a>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+
+    <!---courses-->
+    <section class="course">
+        <h1>Courses We offer</h1>
+        <p>We offer the following courses in diffrent domain</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>we are the best in providing most technical courses like civil engineering computer 
+                    science ,Mechanical engineering and Many More 
+                </p>
+                </div>
+                <div class="course-col">
+                <h3>Dgree</h3>
+                <p>we are the best in providing most technical courses like civil engineering computer 
+                    science ,Mechanical engineering and Many More . we offer this in diffrent degrees
+
+                </p>
+                </div>
+                <div class="course-col">
+                <h3>Post graduation</h3>
+                <p>we are the best in providing most technical courses like civil engineering computer 
+                    science ,Mechanical engineering and Many More .and even in post graduate we offer Also 
+                    the Amazing combination of courses
+                </p>
+            </div>
+        </div>
+    </section>
+    <!---facilities-->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Our facilities is belong in diffrent places As we are going to determine in this section</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduford_img/library.png" alt="">
+                <h3>World class library</h3>
+                <p>This is our Library For using by our Student During their research</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/basketball.png" alt="">
+                <h3>Largest playground</h3>
+                <p>This is Also a playground where our student are using for playing Basketball</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/cafeteria.png" alt="">
+                <h3>Tasty and Hearthy Food</h3>
+                <p>This is our restourant for student to take their Meal</p>
+            </div>
+        </div>
+    </section>
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>We are the best university ollover the wolrds you ever see 
+                We have greatest experience in provision of Quality Education<br/> 
+                On diffrent stage level in diffrent Faculties Especially Science and Technology
+            </p>
+            <div class="icon">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart"></i> by Niyo Sam</p>
+         </section>
+
+    <!-----java script for toogle me----->
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
